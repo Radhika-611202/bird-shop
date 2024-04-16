@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    font-family: "PT Serif", serif;
+}
+.add{
+    height: 720px;
+    width: 100%;
+    background: url(shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    left: 900px;
+    top: 250px;
+    color: white;
+    text-transform: uppercase;
+}
+button{
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color:lightsalmon;
+}
+button:hover{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
